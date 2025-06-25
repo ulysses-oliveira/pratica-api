@@ -82,3 +82,14 @@
 - Certifique-se de criar um arquivo `.env` para as variáveis de ambiente.
 - Utilize `npm run dev` para iniciar o servidor em modo desenvolvimento.
 - Para rodar os testes, utilize `npx jest`.
+
+## Enviar atualizações para uma nova branch
+
+Use os comandos abaixo para criar uma nova branch, adicionar suas alterações e enviá-las para o repositório remoto:
+
+```bash
+git checkout -b nome-da-sua-branch
+git add .
+git commit -m "Descreva suas alterações"
+git push origin nome-da-sua-branch
+```
