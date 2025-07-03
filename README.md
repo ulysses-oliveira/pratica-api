@@ -53,8 +53,8 @@
 
 3. **Instale as dependências:**
     ```bash
-    npm install dotenv
-    npm install --save-dev typescript ts-node-dev jest eslint prettier @types/node @types/express @types/jest
+    npm install express dotenv @prisma/client
+    npm install --save-dev typescript ts-node-dev jest eslint prettier prisma @types/node @types/express @types/jest
     ```
 
 4. **Configure o TypeScript:**
